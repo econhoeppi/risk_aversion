@@ -26,7 +26,7 @@ payoffs = [500, -550]
 out = map(
     power_utility_loss_aversion, payoffs, power_coefficients, loss_aversion_coefficients
 )
->>>>>>> parent of ea7a4aa (use partial)
+
 
 for item in out:
     print(item)
